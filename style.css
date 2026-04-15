@@ -14,10 +14,10 @@ body {
     flex-direction: column;
     display: flex;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .container {
-    /* background-color: #566c9a; */
     height: 190px;
 }
 
@@ -82,6 +82,9 @@ footer {
     margin-top: auto;
     padding: 10px;
     color: antiquewhite;
+    width: 100%;
+    position: relative;
+    left: 0;
 }
 
 .homecontent {
@@ -383,7 +386,7 @@ td {
 
 @media (max-width: 992px) {
     #text1 {
-        font-size: 150px;
+        font-size: 140px;
     }
     #text2 {
         font-size: 13px;
