@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add your courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="home">
+        <header class="container">
+            <nav>
+                <p>Personal Course Organizer</p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="addcourses.html">Add Course</a></li>
+                    <li><a href="contact.html">Contact Us </a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="add">
+            <div class="caption2">
+                <p>Add your Courses:</p>
+            </div>
+
+            <form class="form">
+
+
+                <label for="course">Course Name</label>
+                <input required id="course" name="course" list="courses" placeholder="Search for course name...">
+                <datalist id="courses">
+                            <option value="Internet Technology">
+                            <option value="Programming language-1">
+                            <option value="Mathematics-2">
+                            <option value="Discrete Mathematics">
+                            <option value="Probability and Statistics-2">
+                            <option value="Electronics">
+                          </datalist>
+
+                <label for="instructor">Instructor Name</label>
+
+                <input required id="instructor" name="instructor" list="drName" placeholder="Search for Instructor name...">
+
+                <datalist id="drName">
+                                <option value="Dr/Mahmoud El Khouly">
+                                <option value="Dr/Soha Ahmed">
+                                <option value="Dr/Ahmed">
+                                <option value="Dr/Abd El-Hameed">
+                                <option value="Dr/Eman Farag">
+                                <option value="Dr/Azza">
+                 </datalist>
+
+
+                <label for="hours">Credit Hours</label>
+                <input required id="hours" name="hours" type="text" placeholder="Write the credit hours...">
+                <label for="notes">Notes</label>
+                <input id="notes" name="notes" type="text" placeholder="Write your notes...">
+                <div class="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>
+                </div>
+            </form>
+
+
+
+        </main>
+
+        <footer>
+            <p>Designed by Sara El Basiony© | All Rights Reserved</p>
+            <p>Personal Course Organizer</p>
+        </footer>
+
+
+    </div>
+
+
+</body>
+
+</html>
