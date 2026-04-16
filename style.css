@@ -433,7 +433,7 @@ td {
     }
     nav {
         padding: 10px 0;
-        height: 150;
+        height: 150px;
     }
     nav p {
         font-size: 24px;
@@ -491,23 +491,6 @@ td {
     }
     body {
         overflow-x: hidden;
-    }
-}
-
-@media (max-width: 768px) {
-    .add {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .caption2 {
-        font-size: 25px;
-        text-align: center;
-        margin-left: 0;
-    }
-    .form {
-        width: 100%;
-        max-width: 350px;
-        margin: 10px auto;
     }
 }
 
